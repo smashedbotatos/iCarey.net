@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="90.304mm" width="268.48mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 268.47946 90.30394">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-15.312 -169.44)">
+  <flowRoot style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="matrix(.26458 0 0 .26458 -262.32 96.006)" line-height="125%" font-size="17.5px" font-family="sans-serif" fill="#000000"><flowRegion><rect y="111.09" width="620" x="74.286" height="177.14"/></flowRegion><flowPara/></flowRoot>
+  <text style="font-variant-ligatures:normal;letter-spacing:0px;font-variant-numeric:normal;word-spacing:0px;font-variant-caps:normal;font-feature-settings:normal" font-family="Ubuntu" xml:space="preserve" transform="matrix(.95119 -.0010590 .0011704 1.0513 0 0)" line-height="125%" font-size="82.409px" y="225.94952" x="56.209415" font-weight="500" fill="#ff652f"><tspan y="225.94952" x="56.209415" fill="#ff652f">iCarey</tspan></text>
+  <g transform="matrix(.046298 0 0 -.046298 -160.82 354.26)">
+   <path d="m4395.9 3686.6h-431.38v144.54h431.38zm0-289.07h-431.38v144.54h431.38zm-359.48-867.23c-39.737 0-71.897 32.321-71.897 72.269s32.16 72.27 71.897 72.27c39.743 0 71.897-32.321 71.897-72.27 0-39.948-32.154-72.269-71.897-72.269zm359.48 1445.4h-431.38c-79.473 0-143.79-64.789-143.79-144.54v-1590c0-79.891 64.315-144.53 143.79-144.53h431.38c79.479 0 143.79 64.648 143.79 144.53v1589.9c0 79.75-64.315 144.54-143.79 144.54z" fill="#ff652f"/>
+   <g fill="#272727">
+    <ellipse fill-opacity=".94118" rx="69.873" ry="69.548" transform="scale(1,-1)" cy="-2603.2" cx="4036.4"/>
+    <rect transform="scale(1,-1)" height="151.37" width="433.91" y="-3830.8" x="3960.4"/>
+    <rect transform="scale(1,-1)" height="151.37" width="433.91" y="-3545.4" x="3961.6"/>
+   </g>
+  </g>
+  <text style="font-variant-ligatures:normal;letter-spacing:0px;font-variant-numeric:normal;word-spacing:0px;font-variant-caps:normal;font-feature-settings:normal" font-family="Ubuntu" xml:space="preserve" font-size="22.29px" font-style="italic" line-height="0%" y="255.2202" x="52.939407" font-weight="500" fill="#ff652f"><tspan style="font-variant-numeric:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-feature-settings:normal" font-family="Ubuntu" font-size="22.29px" font-style="italic" line-height="1.25" y="255.2202" x="52.939407" font-weight="500">Computer Services</tspan></text>
+ </g>
+</svg>

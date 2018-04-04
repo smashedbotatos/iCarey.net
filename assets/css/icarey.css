@@ -1,0 +1,40 @@
+body {
+    background-color: #272727;
+    color: #747474;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    padding-top: 72px;
+}
+
+.btn-icarey {
+   background-color: #FF652F;
+   color: #272727;
+}
+
+.icarey-orange {
+  color: #FF652F;
+}
+
+.nav-main {
+  background-color: #272727;
+  color: #747474;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #272727;
+}
