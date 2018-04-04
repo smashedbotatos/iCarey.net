@@ -38,6 +38,9 @@ error_log( "HELLO MAIN SITE HEADER" );
   <meta name="application-name" content="iCarey Computer">
   <meta name="msapplication-TileColor" content="#242424">
   <meta name="theme-color" content="#ffffff">
+  <!-- JavaScript -->
+  <script src="assets/js/icarey.js"></script>
+
 </head>
 
 <body>
@@ -53,8 +56,8 @@ error_log( "HELLO MAIN SITE HEADER" );
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
@@ -65,12 +68,10 @@ error_log( "HELLO MAIN SITE HEADER" );
           </ul>
           <ul class="navbar-nav ml-auto">
             <li>
-              <a href="register.php" class="signup-link">
-                <button type="button" class="btn btn-icarey btn-sm">
-                  <span class="oi oi-person" title="Account Register" aria-hidden="true"></span>
-                   Register
+                <button type="button" id="popup" onclick="div_show()" class="btn btn-icarey btn-sm">
+                  <span class="oi oi-clipboard" title="Track Repair" aria-hidden="true"></span>
+                   Track Repair
                 </button>
-              </a>
               &nbsp;
             </li>
             <li>
@@ -85,3 +86,24 @@ error_log( "HELLO MAIN SITE HEADER" );
         </div>
         </nav>
     </header>
+    <!-- iTracker Form Popup -->
+    <div id="TrackingWindow">
+    <!-- Popup Div Starts Here -->
+      <div id="popupTrack">
+    <!-- Tracking Form -->
+        <form id="track-form">
+          <div class="form-group">
+            <label for="track-email">Email address</label>
+            <input type="email" class="form-control" id="track-email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Email address given at dropoff.</small>
+          </div>
+          <div class="form-group">
+            <label for="track-tag">Asset Tag ID</label>
+            <input type="text" class="form-control" id="track-tag" aria-describedby="tagHelp" placeholder="Asset Tag">
+            <small id="tagHelp" class="form-text text-muted">Asset Tag from your dropoff sheet.</small>
+          </div>
+          <button type="submit" class="btn btn-icarey" onclick="check_empty();">Submit</button>
+        </form>
+    </div>
+  </div>
+  <!-- iTracker Form End -->
