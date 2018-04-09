@@ -1,0 +1,33 @@
+[08-Apr-2018 19:45:45 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:45:45 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:55:15 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:55:15 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:56:59 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:56:59 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:57:08 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:57:08 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:57:08 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:57:11 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:57:11 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 19:57:11 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:57:31 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:57:31 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:57:31 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:59:41 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:59:41 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:59:41 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:59:43 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:59:43 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 19:59:43 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 19:59:45 America/New_York] HELLO MAIN SITE HEADER
+[08-Apr-2018 19:59:45 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 19:59:45 America/New_York] HELLO MAIN SITE FOOTER
+[08-Apr-2018 20:01:32 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 20:01:35 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 20:01:44 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 20:01:45 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 20:01:46 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 22:07:23 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[08-Apr-2018 22:09:10 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[09-Apr-2018 04:16:04 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11
+[09-Apr-2018 04:16:12 America/New_York] PHP Notice:  Undefined index: login in /var/www/icarey.net/public/dev/login.php on line 11

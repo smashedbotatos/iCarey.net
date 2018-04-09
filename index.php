@@ -25,6 +25,12 @@ include_once('header.php'); ?>
         </div>
         <div class="row">
           <div class="col-md-8">
+            <?php
+            if (isset($_SESSION['icarey']['email'])) :
+            	print_r($_SESSION['icarey']['email']);
+              print_r($_SESSION['icarey']['token']);
+            endif;
+           ?><br />
            <?php
            $first = "The quick brown fox";
            $second = " jumped over the lazy dog.";

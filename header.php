@@ -5,13 +5,14 @@
 * @author       Smashedbotatos <ian@icarey.net>
 * @copyright    Copyright © 2009-2018 iCarey Computer Services.
 */
+ob_start();
 
 if ( ! session_id() ) session_start();
 if ( ! isset( $_SESSION['icarey'] ) ) {
     $_SESSION['icarey'] = array();
 }
 
-error_log( "HELLO MAIN SITE HEADER" );
+require_once __DIR__ . '/classes/basic.class.php';
 
 ?><!DOCTYPE html><html lang="en">
 <head>
@@ -67,31 +68,53 @@ error_log( "HELLO MAIN SITE HEADER" );
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
-            <li>
+            <li class="nav-item">
+              <a class="nav-link">
                 <button type="button" id="popup" onclick="div_show()" class="btn btn-icarey btn-sm">
                   <span class="oi oi-clipboard" title="Track Repair" aria-hidden="true"></span>
                    Track Repair
                 </button>
-              &nbsp;
+                </a>
             </li>
-            <li>
-              <a href="login.php" class="signup-link">
+            <?php if(isset($_SESSION['icarey']['email'])) { ?>
+              <li class="nav-item dropdown">
+                <button type="button" class="btn btn-outline-secondary btn-sm">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <?php echo $_SESSION['icarey']['email']; ?>
+                  </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="logout.php">Logout</a>
+                  <!-- <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>-->
+                </div>
+                </button>
+              </li>
+
+            <?php } else { ?>
+            <li class="nav-item">
+              <a href="login.php" class="nav-link">
                 <button type="button" class="btn btn-icarey btn-sm">
                   <span class="oi oi-account-login" title="Account Login" aria-hidden="true"></span>
                    Login
                 </button>
               </a>
             </li>
+          <?php } ?>
           </ul>
         </div>
         </nav>
     </header>
     <!-- iTracker Form Popup -->
-    <div id="TrackingWindow">
+  <div id="TrackingWindow">
     <!-- Popup Div Starts Here -->
-      <div id="popupTrack">
+    <div id="popupTrack">
     <!-- Tracking Form -->
+      <div class="container">
         <form id="track-form">
+          <h2>Track Your Repair</h2>
+          <span id="track-close" class="oi oi-x float-md-right" onclick ="div_hide()" title="Close" aria-hidden="true"></span>
           <div class="form-group">
             <label for="track-email">Email address</label>
             <input type="email" class="form-control" id="track-email" aria-describedby="emailHelp" placeholder="Enter email">
@@ -104,6 +127,7 @@ error_log( "HELLO MAIN SITE HEADER" );
           </div>
           <button type="submit" class="btn btn-icarey" onclick="check_empty();">Submit</button>
         </form>
+      </div>
     </div>
   </div>
   <!-- iTracker Form End -->

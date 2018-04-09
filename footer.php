@@ -6,7 +6,6 @@
 * @copyright    Copyright © 2009-2018 iCarey Computer Services.
 */
  ?>
- <?php error_log( "HELLO MAIN SITE FOOTER" ); ?>
  <!-- Footer
  ================================================== -->
          <footer class="footer">
